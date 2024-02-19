@@ -1,9 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
 .header {
     background-color: #1F2937;
     color: white;
     padding-bottom: 32px;
     margin: 0;
-    
 }
 
 ul {
@@ -39,7 +43,6 @@ ul {
     margin: 0;
     color: #f9faf8;
     max-width: 300px;
-
 }
 
 .header-main p {
@@ -72,7 +75,7 @@ ul {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 32px;
 }
 
 .random-content {
@@ -85,4 +88,29 @@ ul {
 
 figure {
     margin: 0;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 32px;
+    margin: 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote .the-quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote .author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.the-quote {
+    /* display: flex; */
+    text-align: center;
 }
